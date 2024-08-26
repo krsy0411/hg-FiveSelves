@@ -133,7 +133,15 @@ URL 부분을 확인하면 배포 URL을 확인할 수 있다.
 깃허브에 push를 하게되면 자동으로 CI/CD가 작동하는 것을 확인할 수 있다.
 
 
-## 시작하기 (Server)
+# 시작하기 (Server)
+
+<img width="1710" alt="스크린샷 2024-08-26 오후 4 57 26" src="https://github.com/user-attachments/assets/77adf1bb-9c63-4bfa-879f-2e359fee5d8b">
+
+<a href="https://github.com/hackersground-kr/hg-FiveSelves">링크</a>에 들어가서 깃허브 포크를 받아준다.
+
+<img width="757" alt="스크린샷 2024-08-26 오후 4 58 19" src="https://github.com/user-attachments/assets/492a062d-4bbc-4b83-a3f5-bb02f788e916">
+
+그리고 이름을 설정해준다.
 
 ### Step1. <a href="https://portal.azure.com">에저포탈</a>에 접속한다.
 
