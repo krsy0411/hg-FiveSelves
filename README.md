@@ -76,13 +76,17 @@
 여기서 자신의 이름가 위에서 설정한 포크한 레포지토리 이름을 선택해준다.
 
 #### 중요!
-<img width="251" alt="스크린샷 2024-08-26 오후 5 43 06" src="https://github.com/user-attachments/assets/635a0b10-25b6-469e-b580-1e55429d00fa">
 
-client 브랜치를 선택해주어야한다.
+<img width="752" alt="스크린샷 2024-08-26 오후 6 14 26" src="https://github.com/user-attachments/assets/0e32d258-b03e-4a84-bbd6-10d7e535ad45">
 
-조직 : {자기 GitHub ID}
-레포지토리 : {바꾸지 않았다면 hg-FiveSelves 포크할때 바꿔다면 바꾼 레포 이름}
-브랜치 : {client}
+main 브랜치를 선택해주어야한다.
+
+조직 : {자기 GitHub ID} <br>
+레포지토리 : {바꾸지 않았다면 hg-FiveSelves 포크할때 바꿔다면 바꾼 레포 이름} <br>
+브랜치 : {main} <br>
+
+그리고 조금 기다리면 빌드세부 정보를 선택할 수 있는데 거기서
+앱 위치를 ./clinet로 설정해준다. (보통은 자동으로 된다.)
 
 <img width="413" alt="스크린샷 2024-08-26 오전 9 48 24" src="https://github.com/user-attachments/assets/0b864fec-0c55-428c-9a9c-7cf244a189aa">
 
@@ -105,6 +109,15 @@ client 브랜치를 선택해주어야한다.
 <img width="949" alt="스크린샷 2024-08-26 오전 9 51 59" src="https://github.com/user-attachments/assets/9e9d13a3-b5e8-4dd3-b4ea-e86c14996ff7">
 
 리소스로 이동을 클릭
+
+<img width="816" alt="스크린샷 2024-08-26 오후 6 24 21" src="https://github.com/user-attachments/assets/44202f79-a627-4022-93b7-574713a52270">
+
+"만약 배포가 완료됨"이 안떴는데 리소스로 이동했다면
+
+<img width="681" alt="스크린샷 2024-08-26 오후 6 27 36" src="https://github.com/user-attachments/assets/f7fa8d71-5c3b-4b6c-aff0-f016638e83e9">
+
+상태가 "준비됨"이 될때까지 기다려주어야한다.
+이때 무작정 기다리지 말고 가끔씩 리프레쉬해주어야한다.
 
 <img width="1710" alt="스크린샷 2024-08-26 오전 9 53 08" src="https://github.com/user-attachments/assets/0dc420f9-fefd-43fd-8584-6982f40612b7">
 
