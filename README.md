@@ -168,7 +168,7 @@ name - DOCKER_PASSWORD
 
 Secret - 도커 비밀번호 입력
 
-<img width="1470" alt="스크린샷 2024-08-26 오후 11 26 07" src="https://github.com/user-attachments/assets/ec7d7960-c5f4-4cae-899b-d03c6709f3e0">
+<img width="1470" alt="스크린샷 2024-08-26 오후 11 26 07" src="https://github.com/user-attachments/assets/12c0f913-5f0d-491e-b124-982921674356">
 Build and Push Docker Image > Run workflow > Run workflow
 
 배포가 완료되는 것이 확인되면 다음으로 넘어가면 된다
