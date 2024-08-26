@@ -152,12 +152,26 @@ Settings로 넘어가기
 <img width="1470" alt="스크린샷 2024-08-26 오후 6 42 13" src="https://github.com/user-attachments/assets/c98c05d6-5a5f-4a0d-ac1d-131c02877e54">
 Secrets and variables > Actions > new Repository secret을 누른 후
 <img width="1470" alt="스크린샷 2024-08-26 오후 6 43 54" src="https://github.com/user-attachments/assets/f677ca83-85dd-4748-982b-b5c623e36d43">
+name - DOCKER_NICKNAME
+
+Secret - 도커 유저 닉네임
+
+이것을 한번더 반복
+
 name - DOCKER_USERNAME
+
 Secret - 도커 유저 네임
 
 이것을 한번더 반복
+
 name - DOCKER_PASSWORD
+
 Secret - 도커 비밀번호 입력
+
+<img width="1470" alt="스크린샷 2024-08-26 오후 11 26 07" src="https://github.com/user-attachments/assets/ec7d7960-c5f4-4cae-899b-d03c6709f3e0">
+Build and Push Docker Image > Run workflow > Run workflow
+
+배포가 완료되는 것이 확인되면 다음으로 넘어가면 된다
 
 ### Step1. <a href="https://portal.azure.com">에저포탈</a>에 접속한다.
 
