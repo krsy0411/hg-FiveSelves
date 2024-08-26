@@ -61,10 +61,19 @@
 <br>
 <img width="801" alt="스크린샷 2024-08-26 오후 1 06 45" src="https://github.com/user-attachments/assets/6bb2d7f0-9cd2-4f14-9e9d-20836192362f">
 
+이름을 입력해준다.
+
+<img width="1710" alt="스크린샷 2024-08-26 오후 4 57 26" src="https://github.com/user-attachments/assets/77adf1bb-9c63-4bfa-879f-2e359fee5d8b">
+
+그다음 <a href="https://github.com/hackersground-kr/hg-FiveSelves">링크</a>에 들어가서 깃허브 포크를 받아준다.
+
+<img width="757" alt="스크린샷 2024-08-26 오후 4 58 19" src="https://github.com/user-attachments/assets/492a062d-4bbc-4b83-a3f5-bb02f788e916">
+
+그리고 이름을 설정해준다.
+
 <img width="400" alt="스크린샷 2024-08-26 오전 9 46 07" src="https://github.com/user-attachments/assets/f78c1367-8e46-40fd-a776-68de95cd241d">
 
-이름과 조직(organization)과 리포지토리(repository), 분기(Branch)를 필수로 입력한다. <br>
-그러면 빌드 세부정보가 뜰텐데, 앱 위치를 원하는 위치로 지정해준다
+여기서 자신의 이름가 위에서 설정한 포크한 레포지토리 이름을 선택해준다
 
 <img width="413" alt="스크린샷 2024-08-26 오전 9 48 24" src="https://github.com/user-attachments/assets/0b864fec-0c55-428c-9a9c-7cf244a189aa">
 
