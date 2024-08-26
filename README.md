@@ -90,3 +90,9 @@ URL 부분을 확인하면 배포 URL을 확인할 수 있다.
 <img width="1041" alt="스크린샷 2024-08-26 오전 9 53 52" src="https://github.com/user-attachments/assets/197ce526-5399-4705-ad65-74bccf6bb3e1">
 
 배포는 끝이다
+
+### 번외
+<img width="1710" alt="스크린샷 2024-08-26 오전 9 56 58" src="https://github.com/user-attachments/assets/f50d4521-f44a-4e73-82cd-1d4c84347391">
+
+깃허브에 push를 하게되면 자동으로 CI/CD가 작동하는 것을 확인할 수 있다.
+
