@@ -73,7 +73,16 @@
 
 <img width="400" alt="스크린샷 2024-08-26 오전 9 46 07" src="https://github.com/user-attachments/assets/f78c1367-8e46-40fd-a776-68de95cd241d">
 
-여기서 자신의 이름가 위에서 설정한 포크한 레포지토리 이름을 선택해준다
+여기서 자신의 이름가 위에서 설정한 포크한 레포지토리 이름을 선택해준다.
+
+#### 중요!
+<img width="251" alt="스크린샷 2024-08-26 오후 5 43 06" src="https://github.com/user-attachments/assets/635a0b10-25b6-469e-b580-1e55429d00fa">
+
+client 브랜치를 선택해주어야한다.
+
+조직 : {자기 GitHub ID}
+레포지토리 : {바꾸지 않았다면 hg-FiveSelves 포크할때 바꿔다면 바꾼 레포 이름}
+브랜치 : {client}
 
 <img width="413" alt="스크린샷 2024-08-26 오전 9 48 24" src="https://github.com/user-attachments/assets/0b864fec-0c55-428c-9a9c-7cf244a189aa">
 
