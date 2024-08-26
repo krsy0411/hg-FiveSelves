@@ -143,6 +143,22 @@ URL 부분을 확인하면 배포 URL을 확인할 수 있다.
 
 그리고 이름을 설정해준다.
 
+<img width="1470" alt="스크린샷 2024-08-26 오후 7 55 15" src="https://github.com/user-attachments/assets/ce1b4142-a488-4b1a-bfe5-66dc9b7a9d05">
+초록색 버튼을 눌려 활성화를 해준다
+
+### 포크 딴 레포로 넘어가기
+<img width="1470" alt="스크린샷 2024-08-26 오후 6 37 45" src="https://github.com/user-attachments/assets/4ceb03c6-8455-4602-a3fe-2eea2a1b7f7b">
+Settings로 넘어가기
+<img width="1470" alt="스크린샷 2024-08-26 오후 6 42 13" src="https://github.com/user-attachments/assets/c98c05d6-5a5f-4a0d-ac1d-131c02877e54">
+Secrets and variables > Actions > new Repository secret을 누른 후
+<img width="1470" alt="스크린샷 2024-08-26 오후 6 43 54" src="https://github.com/user-attachments/assets/f677ca83-85dd-4748-982b-b5c623e36d43">
+name - DOCKER_USERNAME
+Secret - 도커 유저 네임
+
+이것을 한번더 반복
+name - DOCKER_PASSWORD
+Secret - 도커 비밀번호 입력
+
 ### Step1. <a href="https://portal.azure.com">에저포탈</a>에 접속한다.
 
 ### Step2. 가지고 있는 계정으로 로그인 해준다.
@@ -223,19 +239,6 @@ URL 부분을 확인하면 배포 URL을 확인할 수 있다.
 암호 - 도커 비밀번호 입력
 
 그 후 '연속 배포 시작' 클릭
-
-### Step14. 포크 딴 레포로 넘어가기
-<img width="1470" alt="스크린샷 2024-08-26 오후 6 37 45" src="https://github.com/user-attachments/assets/4ceb03c6-8455-4602-a3fe-2eea2a1b7f7b">
-Settings로 넘어가기
-<img width="1470" alt="스크린샷 2024-08-26 오후 6 42 13" src="https://github.com/user-attachments/assets/c98c05d6-5a5f-4a0d-ac1d-131c02877e54">
-Secrets and variables > Actions > new Repository secret을 누른 후
-<img width="1470" alt="스크린샷 2024-08-26 오후 6 43 54" src="https://github.com/user-attachments/assets/f677ca83-85dd-4748-982b-b5c623e36d43">
-name - DOCKER_USERNAME
-Secret - 도커 유저 네임
-
-이것을 한번더 반복
-name - DOCKER_PASSWORD
-Secret - 도커 비밀번호 입력
 
 ----
 이제 메인브렌치가 바뀔 때 마다 배포가 됩니당
