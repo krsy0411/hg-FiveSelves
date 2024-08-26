@@ -110,3 +110,109 @@ URL 부분을 확인하면 배포 URL을 확인할 수 있다.
 
 깃허브에 push를 하게되면 자동으로 CI/CD가 작동하는 것을 확인할 수 있다.
 
+
+## 시작하기 (Server)
+
+### Step1. <a href="https://portal.azure.com">에저포탈</a>에 접속한다.
+
+### Step2. 가지고 있는 계정으로 로그인 해준다.
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/d7933154-23aa-47b6-bfb9-4f0de02d465a">
+
+### Step3. 리소스그룹 클릭
+<img width="540" alt="스크린샷 2024-08-26 오전 9 32 00" src="https://github.com/user-attachments/assets/bc40d74d-63fb-4aca-9e10-77e6d20ffc36">
+
+### Step4. 자신이 속한 그룹을 검색하고 들어가준다.
+<img width="1707" alt="스크린샷 2024-08-26 오전 9 34 19" src="https://github.com/user-attachments/assets/a13fc512-9eb3-46bf-bfea-a0c23b1e7dcf">
+
+### Step5. 새로운 서비스를 만들어준다.
+<img width="1706" alt="스크린샷 2024-08-26 오전 9 35 51" src="https://github.com/user-attachments/assets/c0e9dd74-e457-4ab3-8125-fa6c615ef211">
+
+### Step6. '컨테이너 앱'을 검색한 후 컨테이너 앱을 선택한다
+<img width="1470" alt="스크린샷 2024-08-26 오후 5 13 08" src="https://github.com/user-attachments/assets/f21aed6b-8157-4f31-9e32-3788373b8943">
+- 만들기 -> 컨테이너 앱 클릭
+
+### Step7. 새로만들기 클릭
+<img width="1470" alt="스크린샷 2024-08-26 오후 5 18 57" src="https://github.com/user-attachments/assets/1ea82e63-17d3-48f2-84b3-fc90f929ca5e">
+
+### Step8. 각 항목 입력
+<img width="1470" alt="스크린샷 2024-08-26 오후 5 17 45" src="https://github.com/user-attachments/assets/00205f83-d1a1-4969-92ba-0405c909d0d8">
+환경이름 - 'fiveSelves' 입력
+영역중복 - '사용 안함' 클릭
+
+### Step9. 새로만들기 클릭
+<img width="1470" alt="스크린샷 2024-08-26 오후 5 15 57" src="https://github.com/user-attachments/assets/48a06c2e-1d3c-4d05-995c-804adb703157">
+구독 - 자신이 속한 그룹 클릭
+리소스 그룹 - 자신이 속한 리소스 그룹 클릭
+컨테이너 앱 이름 - 'fiveSelves' 입력
+배포 원본 - '컨테이너 이미지'클릭
+지역 - 'Korea Central' 선택
+컨테이너 앱 환경 - Step.8에서 만들었던 '환경이름' 클릭
+
+컨테이너로 넘어가기
+
+### Step10. 컨테이너
+<img width="1470" alt="스크린샷 2024-08-26 오후 5 25 29" src="https://github.com/user-attachments/assets/249f57f7-8729-4b2c-aca9-5229b9ac2436">
+이름 - 'fiveSelves'입력
+이미지 원본 - 'Docker Hub 또는 기타 레지스트리' 선택
+이미지 형식 - '공개' 선택
+이미지 및 태그 - '{docker 아이디}/five:latest' 입력 (중괄호 안에는 자신의 도커 아이디 작성)
+
+수신으로 넘어가기
+
+### Step11. 수신
+<img width="1470" alt="스크린샷 2024-08-26 오후 5 30 41" src="https://github.com/user-attachments/assets/3c8cb964-1333-4484-9a84-eb10e36b5fe5">
+수신 - 체크박스 체크하기
+수신 트래픽 - '어디서나 트래픽 허용'클릭
+수신 유형 - 'HTTP' 클릭
+대산 포트 - '8080'입력
+
+왼쪽 하단에 '검토 + 만들기'를 누른 후 '만들기'를 누르기
+
+배포 진행중 기다리기..
+<img width="1470" alt="스크린샷 2024-08-26 오후 5 36 18" src="https://github.com/user-attachments/assets/7c9ff4f5-ac12-448b-b624-085a0a1f9178">
+
+끝난 후 리소스로 이동 클릭
+<img width="1470" alt="스크린샷 2024-08-26 오후 5 45 52" src="https://github.com/user-attachments/assets/fce24b3b-6dfb-4a6a-b26e-14eb5054c9ed">
+
+
+### Step12. 배포
+<img width="1470" alt="스크린샷 2024-08-26 오후 5 51 35" src="https://github.com/user-attachments/assets/af59523f-298d-46b9-aeab-98e0b611e27b">
+설정 > 배포로 이동한 후
+'Github로 로그인'을 선택해줍니다.
+<img width="1470" alt="스크린샷 2024-08-26 오후 5 53 27" src="https://github.com/user-attachments/assets/6a53d5eb-6f7f-45da-9687-47369890a939">
+
+### Step13. 배포2
+<img width="1470" alt="스크린샷 2024-08-26 오후 5 57 09" src="https://github.com/user-attachments/assets/e7985bdf-7643-478a-a8ea-75459b0fb432">
+조직 - 자신의 깃허브 닉네임 클릭
+리포지토리 - 클론받은 리포지토리 선택
+분기 - 'backend'입력
+리포지토리 원본 - 'Docker Hub 또는 기타 레지스트리'선택
+이미지 - 'anys34/five:latest'입력
+로그인 서버 URL - 'docker.io'입력
+사용자 이름 - 도커 아이디 입력
+암호 - 도커 비밀번호 입력
+
+그 후 '연속 배포 시작' 클릭
+
+### Step14. 포크 딴 레포로 넘어가기
+<img width="1470" alt="스크린샷 2024-08-26 오후 6 37 45" src="https://github.com/user-attachments/assets/4ceb03c6-8455-4602-a3fe-2eea2a1b7f7b">
+Settings로 넘어가기
+<img width="1470" alt="스크린샷 2024-08-26 오후 6 42 13" src="https://github.com/user-attachments/assets/c98c05d6-5a5f-4a0d-ac1d-131c02877e54">
+Secrets and variables > Actions > new Repository secret을 누른 후
+<img width="1470" alt="스크린샷 2024-08-26 오후 6 43 54" src="https://github.com/user-attachments/assets/f677ca83-85dd-4748-982b-b5c623e36d43">
+name - DOCKER_USERNAME
+Secret - 도커 유저 네임
+
+이것을 한번더 반복
+name - DOCKER_PASSWORD
+Secret - 도커 비밀번호 입력
+
+
+
+
+
+
+
+
+
+
