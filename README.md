@@ -185,7 +185,7 @@ URL 부분을 확인하면 배포 URL을 확인할 수 있다.
 <img width="1470" alt="스크린샷 2024-08-26 오후 5 57 09" src="https://github.com/user-attachments/assets/e7985bdf-7643-478a-a8ea-75459b0fb432">
 조직 - 자신의 깃허브 닉네임 클릭
 리포지토리 - 클론받은 리포지토리 선택
-분기 - 'backend'입력
+분기 - 'main'입력
 리포지토리 원본 - 'Docker Hub 또는 기타 레지스트리'선택
 이미지 - 'anys34/five:latest'입력
 로그인 서버 URL - 'docker.io'입력
@@ -207,6 +207,8 @@ Secret - 도커 유저 네임
 name - DOCKER_PASSWORD
 Secret - 도커 비밀번호 입력
 
+----
+이제 메인브렌치가 바뀔 때 마다 배포가 됩니당
 
 
 
