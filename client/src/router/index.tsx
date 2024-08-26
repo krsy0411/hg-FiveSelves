@@ -1,23 +1,23 @@
+import { useRoutes } from 'react-router-dom';
+
+import History from 'pages/History';
 import GoodsDetail from 'pages/GoodsDetail';
 import Main from 'pages/Main';
-import { useRoutes } from 'react-router-dom';
+import Result from 'pages/Result';
+import Upload from 'pages/Upload';
+import Notification from 'pages/Notification';
 
 export default function Router() {
   return useRoutes([
     {
       path: '/',
-      element: <Main />,
       children: [
-        { path: 'asdf', element: '' },
-        { path: 'asdff', element: '' }
-      ]
-    },
-    {
-      path: '/goodsDetail',
-      element: <GoodsDetail />,
-      children: [
-        { path: 'asdf', element: '' },
-        { path: 'asdff', element: '' }
+        { path: '/', element: <Main /> },
+        { path: 'search-result/:product', element: <Result /> },
+        { path: 'search-history', element: <History /> },
+        { path: 'goodsDetail', element: <GoodsDetail /> },
+        { path: 'upload', element: <Upload /> },
+        { path: 'notification', element: <Notification /> }
       ]
     }
   ]);
