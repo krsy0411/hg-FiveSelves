@@ -42,8 +42,7 @@
 <img src="https://github.com/hackersground-kr/hg-FiveSelves/blob/main/images/%EC%A0%9C%ED%92%88%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.png?raw=true" alt="">
 
 ## 제품 소개 슬라이드
-
-**(필수)** 제품 또는 서비스를 소개하는 슬라이드 덱을 리포지토리에 추가해 주세요. 슬라이드 덱은 [decks](./decks) 디렉토리에 저장한 후 이곳에 링크를 걸어주세요.
+<img src="https://github.com/hackersground-kr/hg-FiveSelves/blob/main/images/%EC%A0%9C%ED%92%88%EC%86%8C%EA%B0%9C%20%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C.png?raw=true" alt="">
 
 ## 제품 소개 동영상
 
