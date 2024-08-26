@@ -46,7 +46,10 @@
 <img width="1706" alt="스크린샷 2024-08-26 오전 9 35 51" src="https://github.com/user-attachments/assets/c0e9dd74-e457-4ab3-8125-fa6c615ef211">
 
 ### Step6. `Static Web App`을 검색 후 정적 웹앱을 서비스를 만들어준다.
-<img width="1709" alt="스크린샷 2024-08-26 오전 9 36 55" src="https://github.com/user-attachments/assets/0d85061e-1d4d-4583-886c-a196c55b30e1">
+<img width="1440" alt="스크린샷 2024-08-26 오후 1 01 35" src="https://github.com/user-attachments/assets/4be7ac9c-41f6-46e3-b87b-51673849f72c">
+<img width="1440" alt="스크린샷 2024-08-26 오후 1 02 51" src="https://github.com/user-attachments/assets/84e5f213-c42e-4a1b-b344-9ee8af4d8fe5">
+
+
 
 ### Step7. 웹앱 설정을 해준다.
 <img width="400" alt="스크린샷 2024-08-26 오전 9 40 28" src="https://github.com/user-attachments/assets/f5552959-2360-400e-aeec-15b67baeaadf">
@@ -56,10 +59,12 @@
 먼저 리소스그룹을 선택해준다. `Step3`에서 선택한 리소스그룹과 같은 그룹을 선택해주면 된다.
 
 <br>
+<img width="801" alt="스크린샷 2024-08-26 오후 1 06 45" src="https://github.com/user-attachments/assets/6bb2d7f0-9cd2-4f14-9e9d-20836192362f">
 
 <img width="400" alt="스크린샷 2024-08-26 오전 9 46 07" src="https://github.com/user-attachments/assets/f78c1367-8e46-40fd-a776-68de95cd241d">
 
-배포 세부정보를 알맞게 설정해준다.
+이름과 조직(organization)과 리포지토리(repository), 분기(Branch)를 필수로 입력한다. <br>
+그러면 빌드 세부정보가 뜰텐데, 앱 위치를 원하는 위치로 지정해준다
 
 <img width="413" alt="스크린샷 2024-08-26 오전 9 48 24" src="https://github.com/user-attachments/assets/0b864fec-0c55-428c-9a9c-7cf244a189aa">
 
